@@ -78,28 +78,34 @@
   overflow: scroll;
 }
 
-.chat-list {
+.message {
+  margin: 10px 0 0 0;
+}
+
+.upper-message{
   display: flex;
 }
 
-.name {
-  margin: 10px 10px 10px 0;
+.message-user {
+  color: #434a54;
   font-size: 16px;
-  color: #434A54;
 }
 
-.days {
-  margin-top: 10px;
-  font-size: 12px;
+.message-date {
   color: #999;
+  font-size: 12px;
+  padding-left: 10px;
 }
 
-.message {
-  margin-bottom: 40px;
+.lower-message {
+  margin-top: 10px;
+}
+
+.message-content {
+  color: #434a54;
   font-size: 14px;
-  color: #434A54;
+  margin-bottom: 40px;
 }
-
 .form {
   background-color: #DDDDDD;
   height: 90px;
